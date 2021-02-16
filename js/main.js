@@ -10,6 +10,7 @@ const game = () =>{
             document.querySelector("#main").classList.add("fadeOut");
         });
     };
+
     //play match
     const playMatch = () =>{
         var options = document.querySelectorAll(".options button");
@@ -88,7 +89,7 @@ const game = () =>{
         }
 
     };
-  
+       
     startGame();
     playMatch(); 
 }
