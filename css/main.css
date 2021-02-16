@@ -77,3 +77,9 @@ div.fadeIn{
     opacity: 1;
     pointer-events: all;
 }
+
+@media screen and (max-width:441){
+    .match{
+        left: 0 !important;
+    }
+}
